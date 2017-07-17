@@ -1,0 +1,888 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Механа Нестинарка</title>
+    <link href="css/normalize.min.css" rel="stylesheet" type="text/css">
+    <link href="css/main.min.css" rel="stylesheet" media="screen" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Playball" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style-portfolio.min.css" rel="stylesheet" type="text/css">
+    <link href="css/picto-foundry-food.min.css" rel="stylesheet" type="text/css">
+    <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+	<link href="css/custom.min.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon">
+</head>
+<body>
+
+    <!-- ============ Navigation ============= -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="row">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Нестинарка<span>&trade;</span></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav main-nav  clear navbar-right ">
+                        <li><a class="navactive color_animation" href="#top">ДОБРЕ ДОШЛИ</a></li>
+                        <li><a class="color_animation" href="#story">ЗА НАС</a></li>
+                        <li><a class="color_animation" href="#pricing">ЦЕНИ</a></li>
+                        <li><a class="color_animation" href="#events">МЕРОПРИЯТИЯ</a></li>
+                        <li><a class="color_animation" href="#lunch">ОБЯД</a></li>
+                        <li><a class="color_animation" href="#featured">СПЕЦИАЛИТЕТИ</a></li>
+                        <li><a class="color_animation" href="#reservation">РЕЗЕРВАЦИИ</a></li>
+                        <li><a class="color_animation" href="#contactContainer">КОНТАКТИ</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </div><!-- /.container-fluid -->
+    </nav>
+	
+    <!-- ============ Welcome ============= -->
+    <section id="top" class="starter_container bg">
+        <div class="follow_container">
+            <div class="col-md-6 col-md-offset-3">
+                <h2 class="top-title"> Нестинарка</h2>
+                <h2 class="color second-title">" Заповядайте при нас "</h2>
+                <hr>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ About Us ============= -->
+    <section id="story" class="description_content">
+        <div class="text-content container">
+            <div class="col-md-6">
+                <h1>ЗА НАС</h1>
+                <div class="fa fa-user fa-2x"></div>
+                <p class="desc-text">Ресторант Нестинарка отваря врати за първи път на 25 Април 2012г., като малко ресторантче с една зала. Днес вече можем да се похвалим с обновена зала на две нива, както и отделна ВИП зала, съвсем независима от основния ресторант. Имаме и лятна градина. Ресторант Нестинарка е идеално място за сватби, кръщенета, рожденни дни, въобще всякакви поводи. С повод или без, заповядайте при нас! Ние ще организираме професионално вашето мероприятие.</p>
+				<p>
+					<a id="galleryLink" href="gallery.html">Вижте някои от нашите успешни събития</a>
+				</p>
+            </div>
+            <div class="col-md-6">
+                <div class="img-section">
+                    <img src="images/AboutUs/wedding.jpg" width="250" height="220">
+                    <img src="images/AboutUs/wedding1.jpg" width="250" height="220">
+                    <img src="images/AboutUs/wedding2.jpg" width="250" height="220">
+                    <img src="images/AboutUs/wedding3.jpg" width="250" height="220">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ Pricing  ============= -->
+    <section id="pricing" class="description_content">
+        <div class="pricing background_content">
+            <h1><span>Достъпни Цени</span></h1>
+        </div>
+        <div class="text-content container">
+            <div class="container">
+                <div class="row">
+                    <div id="w">
+                        <ul id="filter-list" class="clearfix">
+                            <li class="filter" data-filter="all">Всички</li>
+                            <li class="filter" data-filter="salads">Салати</li>
+                            <li class="filter" data-filter="starters">Предястия</li>
+                            <li class="filter" data-filter="fish">Риба</li>
+                            <li class="filter" data-filter="bbq">Скара</li>
+                            <li class="filter" data-filter="satches">Сачове</li>
+                            <li class="filter" data-filter="dinner">Основни</li>
+                            <li class="filter" data-filter="souses">Гарнитури & Сосове</li>
+                            <li class="filter" data-filter="meze">Мезета</li>
+                            <li class="filter" data-filter="alaminut">Аламинути</li>
+                            <li class="filter" data-filter="bread">Хляб</li>
+                            <li class="filter" data-filter="nuts">Ядки</li>
+                            <li class="filter" data-filter="dessert">Десерти</li>
+                        </ul><!-- @end #filter-list -->
+                        <ul id="portfolio">
+                            <li class="item salads">
+                                <img src="http://placehold.it/500x400" alt="Nestinarka salad">
+                                <figcaption>Нестинарка</figcaption>
+								<h2 class="white"><span class="weight" >800гр.</span>12.<sup>30</sup> лв.</h2>
+                            </li>
+                            <li class="item salads">
+                                <img src="images/Pricing/ceaserSalad.jpg" alt="Ceaser salad">
+                                <figcaption>Цезар</figcaption>
+								<h2 class="white"><span class="weight">500гр.</span>8.<sup>00</sup> лв.</h2>
+                            </li>
+                            <li class="item salads">
+                                <img src="images/Pricing/sheperdSalad.png" alt="Sheperd's salad">
+                                <figcaption>Овчарска</figcaption>
+								<h2 class="white"><span class="weight" >500гр.</span>4.<sup>95</sup> лв.</h2>
+                            </li>
+                            <li class="item salads">
+                                <img src="images/Pricing/shopskaSalad.jpg" alt="Shopska salad">
+                                <figcaption>Шопска</figcaption>
+								<h2 class="white"><span class="weight" >400гр.</span>4.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item salads">
+                                <img src="images/Pricing/greekSalad.jpg" alt="Greek salad">
+                                <figcaption>Гръцка</figcaption>
+								<h2 class="white"><span class="weight" >400гр.</span>4.<sup>80</sup> лв.</h2>
+                            </li>
+                            <li class="item salads">
+                                <img src="http://placehold.it/500x400" alt="Village salad">
+                                <figcaption>Селска</figcaption>
+								<h2 class="white"><span class="weight" >400гр.</span>4.<sup>80</sup> лв.</h2>
+                            </li>
+                            <li class="item salads">
+                                <img src="http://placehold.it/500x400" alt="Mixed salad">
+                                <figcaption>Мешана</figcaption>
+								<h2 class="white"><span class="weight" >350гр.</span>4.<sup>80</sup> лв.</h2>
+                            </li>
+                            <li class="item salads">
+                                <img src="images/Pricing/capreseSalad.jpg" alt="Caprese salad">
+                                <figcaption>Капрезе</figcaption>
+								<h2 class="white"><span class="weight" >350гр.</span>6.<sup>90</sup> лв.</h2>
+                            </li>
+                            <li class="item salads">
+                                <img src="http://placehold.it/500x400" alt="Four cheeses salad">
+                                <figcaption>Четири сирена</figcaption>
+								<h2 class="white"><span class="weight" >350гр.</span>7.<sup>30</sup> лв.</h2>
+                            </li>
+                            <li class="item salads">
+                                <img src="http://placehold.it/500x400" alt="Green salad with eggs">
+                                <figcaption>Зелена с яйце</figcaption>
+								<h2 class="white"><span class="weight" >350гр.</span>4.<sup>30</sup> лв.</h2>
+                            </li>
+                            <li class="item salads">
+                                <img src="http://placehold.it/500x400" alt="Green salad with tuna">
+                                <figcaption>Зелена с риба тон</figcaption>
+								<h2 class="white"><span class="weight" >400гр.</span>5.<sup>40</sup> лв.</h2>
+                            </li>
+                            <li class="item salads">
+                                <img src="http://placehold.it/500x400" alt="Vitamina salad">
+                                <figcaption>Витамина</figcaption>
+								<h2 class="white"><span class="weight" >450гр.</span>5.<sup>30</sup> лв.</h2>
+                            </li>
+                            <li class="item salads">
+                                <img src="images/Pricing/cabage&carrot.jpg" alt="Cabage with carrots">
+                                <figcaption>Зеле с моркови</figcaption>
+								<h2 class="white"><span class="weight" >300гр.</span>3.<sup>30</sup> лв.</h2>
+                            </li>
+                            <li class="item salads">
+                                <img src="http://placehold.it/500x400" alt="Italian salad">
+                                <figcaption>Италианска</figcaption>
+								<h2 class="white"><span class="weight" >350гр.</span>6.<sup>40</sup> лв.</h2>
+                            </li>
+                            <li class="item salads">
+                                <img src="images/Pricing/snejanka.jpg" alt="Snow white salad">
+                                <figcaption>Снежанка</figcaption>
+								<h2 class="white"><span class="weight" >300гр.</span>4.<sup>20</sup> лв.</h2>
+                            </li>
+                            <li class="item salads">
+                                <img src="images/Pricing/katyk.jpg" alt="Katuk">
+                                <figcaption>Катък</figcaption>
+								<h2 class="white"><span class="weight" >300гр.</span>4.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item starters">
+                                <img src="http://placehold.it/500x400" alt="Pan fried melted cheese">
+								<figcaption>Топено сирене пане</figcaption>
+                                <h2 class="white"><span class="weight">200гр.</span>3.<sup>80</sup> лв.</h2>
+                            </li>
+                            <li class="item starters">
+                                <img src="http://placehold.it/500x400" alt="Cheese with honey and wallnuts">
+								<figcaption>Сиренца с мед и орехи</figcaption>
+                                <h2 class="white"><span class="weight">200гр.</span>5.<sup>65</sup> лв.</h2>
+                            </li>
+                            <li class="item starters">
+                                <img src="http://placehold.it/500x400" alt="Shopsko cheese">
+								<figcaption>Сирене по шопски</figcaption>
+                                <h2 class="white"><span class="weight">300гр.</span>5.<sup>30</sup> лв.</h2>
+                            </li>
+                            <li class="item starters">
+                                <img src="http://placehold.it/500x400" alt="Moscow style ham">
+								<figcaption>Шунка по московски</figcaption>
+                                <h2 class="white"><span class="weight">150гр.</span>3.<sup>30</sup> лв.</h2>
+                            </li>
+                            <li class="item starters">
+                                <img src="http://placehold.it/500x400" alt="Pan fried stuffed pepers">
+								<figcaption>Чушка бюрек</figcaption>
+                                <h2 class="white"><span class="weight">200гр.</span>3.<sup>30</sup> лв.</h2>
+                            </li>
+                            <li class="item starters">
+                                <img src="http://placehold.it/500x400" alt="Pan fried viel tongue">
+								<figcaption>Език пане</figcaption>
+                                <h2 class="white"><span class="weight">200гр.</span>6.<sup>90</sup> лв.</h2>
+                            </li>
+                            <li class="item starters">
+                                <img src="http://placehold.it/500x400" alt="Chicken bites">
+								<figcaption>Пилешки хапки</figcaption>
+                                <h2 class="white"><span class="weight">200гр.</span>5.<sup>90</sup> лв.</h2>
+                            </li>
+                            <li class="item starters">
+                                <img src="http://placehold.it/500x400" alt="Pan fried crab rolls">
+								<figcaption>Ролца от раци пане</figcaption>
+                                <h2 class="white"><span class="weight">200гр.</span>5.<sup>00</sup> лв.</h2>
+                            </li>
+                            <li class="item starters">
+                                <img src="http://placehold.it/500x400" alt="Mushrooms in butter">
+								<figcaption>Гъби в масло</figcaption>
+                                <h2 class="white"><span class="weight">200гр.</span>4.<sup>75</sup> лв.</h2>
+                            </li>
+                            <li class="item starters">
+                                <img src="http://placehold.it/500x400" alt="Mushrooms with bacon and cheese">
+								<figcaption>Гъби с бекон и кашкавал</figcaption>
+                                <h2 class="white"><span class="weight">250гр.</span>5.<sup>90</sup> лв.</h2>
+                            </li>
+                            <li class="item starters">
+                                <img src="http://placehold.it/500x400" alt="Pan fried broccoly">
+								<figcaption>Броколи пане</figcaption>
+                                <h2 class="white"><span class="weight">250гр.</span>4.<sup>90</sup> лв.</h2>
+                            </li>
+                            <li class="item starters">
+                                <img src="http://placehold.it/500x400" alt="Potatoes with chicken">
+								<figcaption>Картофи с пилешко</figcaption>
+                                <h2 class="white"><span class="weight">350гр.</span>5.<sup>90</sup> лв.</h2>
+                            </li>
+                            <li class="item starters">
+                                <img src="http://placehold.it/500x400" alt="Potatoes with bacon and cheese">
+								<figcaption>Картофи с бекон и кашкавал</figcaption>
+                                <h2 class="white"><span class="weight">300гр.</span>5.<sup>80</sup> лв.</h2>
+                            </li>
+                            <li class="item starters">
+                                <img src="http://placehold.it/500x400" alt="Spicy potatoes">
+								<figcaption>Пикантни картофи</figcaption>
+                                <h2 class="white"><span class="weight">250гр.</span>3.<sup>10</sup> лв.</h2>
+                            </li>
+                            <li class="item starters">
+                                <img src="http://placehold.it/500x400" alt="Chicken risotto">
+								<figcaption>Ризото с пилешко</figcaption>
+                                <h2 class="white"><span class="weight">350гр.</span>6.<sup>60</sup> лв.</h2>
+                            </li>
+                            <li class="item starters">
+                                <img src="http://placehold.it/500x400" alt="Risotto with vegetables">
+								<figcaption>Ризото със зеленчуци</figcaption>
+                                <h2 class="white"><span class="weight">350гр.</span>5.<sup>20</sup> лв.</h2>
+                            </li>
+                            <li class="item fish">
+                                <img src="http://placehold.it/500x400" alt="Pan fried pangasius">
+								<figcaption>Бяла риба пане</figcaption>
+                                <h2 class="white"><span class="weight">300гр.</span>7.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item fish">
+                                <img src="http://placehold.it/500x400" alt="Trout fish">
+								<figcaption>Пастърва</figcaption>
+                                <h2 class="white"><span class="weight">300гр.</span>8.<sup>80</sup> лв.</h2>
+                            </li>
+                            <li class="item fish">
+                                <img src="http://placehold.it/500x400" alt="Sea bass fish">
+								<figcaption>Лаврак</figcaption>
+                                <h2 class="white"><span class="weight">300гр.</span>14.<sup>40</sup> лв.</h2>
+                            </li>
+                            <li class="item fish">
+                                <img src="http://placehold.it/500x400" alt="Sea bream fish">
+								<figcaption>Ципура</figcaption>
+                                <h2 class="white"><span class="weight">300гр.</span>14.<sup>40</sup> лв.</h2>
+                            </li>
+                            <li class="item fish">
+                                <img src="http://placehold.it/500x400" alt="Carp fish">
+								<figcaption>Шаран</figcaption>
+                                <h2 class="white"><span class="weight">100гр.</span>1.<sup>90</sup> лв.</h2>
+                            </li>
+                            <li class="item souses">
+                                <img src="http://placehold.it/500x400" alt="French fries">
+								<figcaption>Пържени картофи</figcaption>
+                                <h2 class="white"><span class="weight">150гр.</span>1.<sup>80</sup> лв.</h2>
+                            </li>
+                            <li class="item souses">
+                                <img src="http://placehold.it/500x400" alt="Spicy potatoes">
+								<figcaption>Пикантни картофи</figcaption>
+                                <h2 class="white"><span class="weight">150гр.</span>2.<sup>20</sup> лв.</h2>
+                            </li>
+                            <li class="item souses">
+                                <img src="http://placehold.it/500x400" alt="Mushed potatoes">
+								<figcaption>Картофено пюре</figcaption>
+                                <h2 class="white"><span class="weight">150гр.</span>1.<sup>80</sup> лв.</h2>
+                            </li>
+                            <li class="item souses">
+                                <img src="http://placehold.it/500x400" alt="Boiled potatoes">
+								<figcaption>Варени картофи</figcaption>
+                                <h2 class="white"><span class="weight">150гр.</span>1.<sup>80</sup> лв.</h2>
+                            </li>
+                            <li class="item souses">
+                                <img src="http://placehold.it/500x400" alt="Sauted potatoes">
+								<figcaption>Картофи соте</figcaption>
+                                <h2 class="white"><span class="weight">150гр.</span>1.<sup>80</sup> лв.</h2>
+                            </li>
+                            <li class="item souses">
+                                <img src="http://placehold.it/500x400" alt="Fresh vegetables">
+								<figcaption>Пресни зеленчуци</figcaption>
+                                <h2 class="white"><span class="weight">150гр.</span>1.<sup>80</sup> лв.</h2>
+                            </li>
+                            <li class="item souses">
+                                <img src="http://placehold.it/500x400" alt="Mushroom souse">
+								<figcaption>Гъбен сос</figcaption>
+                                <h2 class="white"><span class="weight">150гр.</span>1.<sup>30</sup> лв.</h2>
+                            </li>
+                            <li class="item souses">
+                                <img src="http://placehold.it/500x400" alt="Garlic souse">
+								<figcaption>Чеснов сос</figcaption>
+                                <h2 class="white"><span class="weight">150гр.</span>1.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item souses">
+                                <img src="http://placehold.it/500x400" alt="Milk souse">
+								<figcaption>Млечен сос</figcaption>
+                                <h2 class="white"><span class="weight">150гр.</span>3.<sup>00</sup> лв.</h2>
+                            </li>
+                            <li class="item souses">
+                                <img src="http://placehold.it/500x400" alt="Apetit">
+								<figcaption>Апетит сос</figcaption>
+                                <h2 class="white"><span class="weight">150гр.</span>3.<sup>00</sup> лв.</h2>
+                            </li>
+                            <li class="item souses">
+                                <img src="http://placehold.it/500x400" alt="Soya souse">
+								<figcaption>Соев сос</figcaption>
+                                <h2 class="white"><span class="weight">50гр.</span>1.<sup>00</sup> лв.</h2>
+                            </li>
+                            <li class="item souses">
+                                <img src="http://placehold.it/500x400" alt="Chilly souse">
+								<figcaption>Чили сос</figcaption>
+                                <h2 class="white"><span class="weight">50гр.</span>1.<sup>00</sup> лв.</h2>
+                            </li>
+                            <li class="item meze">
+                                <img src="images/Pricing/sujuk.jpg" alt="meze">
+								<figcaption>Суджук</figcaption>
+                                <h2 class="white"><span class="weight">50гр.</span>3.<sup>70</sup> лв.</h2>
+                            </li>
+                            <li class="item meze">
+                                <img src="images/Pricing/lukanka.jpg" alt="meze">
+								<figcaption>Луканка</figcaption>
+                                <h2 class="white"><span class="weight">50гр.</span>3.<sup>70</sup> лв.</h2>
+                            </li>
+                            <li class="item meze">
+                                <img src="images/Pricing/pastyrma.jpg" alt="meze">
+								<figcaption>Пастърма</figcaption>
+                                <h2 class="white"><span class="weight">50гр.</span>4.<sup>90</sup> лв.</h2>
+                            </li>
+                            <li class="item meze">
+                                <img src="images/Pricing/filet-elena.jpg" alt="meze">
+								<figcaption>Филе Елена</figcaption>
+                                <h2 class="white"><span class="weight">50гр.</span>4.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item meze">
+                                <img src="images/Pricing/cheese.jpg" alt="yellow cheese">
+								<figcaption>Кашкавал</figcaption>
+                                <h2 class="white"><span class="weight">100гр.</span>3.<sup>80</sup> лв.</h2>
+                            </li>
+                            <li class="item meze">
+                                <img src="images/Pricing/whiteCheese.jpg" alt="local cheese">
+								<figcaption>Сирене</figcaption>
+                                <h2 class="white"><span class="weight">100гр.</span>3.<sup>00</sup> лв.</h2>
+                            </li>
+                            <li class="item alaminut">
+                                <img src="images/Pricing/omelette.jpg" alt="Choice of omellet">
+								<figcaption>Омлет</figcaption>
+                                <h2 class="white"><span class="weight">200гр.</span>4.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item alaminut">
+                                <img src="http://placehold.it/500x400" alt="Chicken livers with onions">
+								<figcaption>Пилешки дробчета с лук</figcaption>
+                                <h2 class="white"><span class="weight">300гр.</span>5.<sup>00</sup> лв.</h2>
+                            </li>
+                            <li class="item alaminut">
+                                <img src="http://placehold.it/500x400" alt="Chicken livers with mushrooms and cheese">
+								<figcaption>Пилешки дробчета с гъби и кашкавал</figcaption>
+                                <h2 class="white"><span class="weight">350гр.</span>6.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item alaminut">
+                                <img src="http://placehold.it/500x400" alt="Alaminut">
+								<figcaption>Пилешки воденички с лук</figcaption>
+                                <h2 class="white"><span class="weight">300гр.</span>5.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item alaminut">
+                                <img src="http://placehold.it/500x400" alt="Alaminut">
+								<figcaption>Пилешки воденички с гъби и кашкавал</figcaption>
+                                <h2 class="white"><span class="weight">350гр.</span>6.<sup>80</sup> лв.</h2>
+                            </li>
+                            <li class="item alaminut">
+                                <img src="http://placehold.it/500x400" alt="Fried chicken wings">
+								<figcaption>Пържени пилешки крилца</figcaption>
+                                <h2 class="white"><span class="weight">300гр.</span>5.<sup>70</sup> лв.</h2>
+                            </li>
+                            <li class="item dinner">
+                                <img src="http://placehold.it/500x400" alt="Chicken Julien">
+								<figcaption>Пиле "Жулиен"</figcaption>
+                                <h2 class="white"><span class="weight">400гр.</span>6.<sup>90</sup> лв.</h2>
+                            </li>
+                            <li class="item dinner">
+                                <img src="http://placehold.it/500x400" alt="Chicken four cheeses">
+								<figcaption>Пилешко филе с четири сирена</figcaption>
+                                <h2 class="white"><span class="weight">350гр.</span>7.<sup>70</sup> лв.</h2>
+                            </li>
+                            <li class="item dinner">
+                                <img src="http://placehold.it/500x400" alt="Chicken fillet with fresh cream">
+								<figcaption>Пилешко филе със сметана</figcaption>
+                                <h2 class="white"><span class="weight">400гр.</span>7.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item dinner">
+                                <img src="http://placehold.it/500x400" alt="Chicken kavarma">
+								<figcaption>Пилешка каварма</figcaption>
+                                <h2 class="white"><span class="weight">400гр.</span>7.<sup>00</sup> лв.</h2>
+                            </li>
+                            <li class="item dinner">
+                                <img src="http://placehold.it/500x400" alt="Chicken Argentina">
+								<figcaption>Пиле "Аржентина"</figcaption>
+                                <h2 class="white"><span class="weight">400гр.</span>7.<sup>70</sup> лв.</h2>
+                            </li>
+                            <li class="item dinner">
+                                <img src="http://placehold.it/500x400" alt="Chicken roll">
+								<figcaption>Пилешко филе вретено</figcaption>
+                                <h2 class="white"><span class="weight">450гр.</span>9.<sup>60</sup> лв.</h2>
+                            </li>
+                            <li class="item dinner">
+                                <img src="http://placehold.it/500x400" alt="Pork kavarma">
+								<figcaption>Свинска каварма</figcaption>
+                                <h2 class="white"><span class="weight">400гр.</span>7.<sup>00</sup> лв.</h2>
+                            </li>
+                            <li class="item dinner">
+                                <img src="http://placehold.it/500x400" alt="Pork knuckle">
+								<figcaption>Свински джолан</figcaption>
+                                <h2 class="white"><span class="weight">1000гр.</span>25.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item dinner">
+                                <img src="http://placehold.it/500x400" alt="Pork fillet with mushrooms">
+								<figcaption>Свинско филе с гъби</figcaption>
+                                <h2 class="white"><span class="weight">400гр.</span>8.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item dinner">
+                                <img src="http://placehold.it/500x400" alt="Pork roll">
+								<figcaption>Свинско филе вретено</figcaption>
+                                <h2 class="white"><span class="weight">450гр.</span>9.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item dinner">
+                                <img src="http://placehold.it/500x400" alt="Vienna schnitsel">
+								<figcaption>Шницел по виенски</figcaption>
+                                <h2 class="white"><span class="weight">400гр.</span>8.<sup>70</sup> лв.</h2>
+                            </li>
+                            <li class="item dinner">
+                                <img src="http://placehold.it/500x400" alt="Local dish">
+								<figcaption>Катено мезе</figcaption>
+                                <h2 class="white"><span class="weight">350гр.</span>8.<sup>00</sup> лв.</h2>
+                            </li>
+                            <li class="item dinner">
+                                <img src="http://placehold.it/500x400" alt="Local dish">
+								<figcaption>Карета по ловджийски</figcaption>
+                                <h2 class="white"><span class="weight">400гр.</span>8.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item bbq">
+                                <img src="http://placehold.it/500x400" alt="Chicken steak">
+								<figcaption>Пилешка пържола бут</figcaption>
+                                <h2 class="white"><span class="weight">250гр.</span>6.<sup>10</sup> лв.</h2>
+                            </li>
+                            <li class="item bbq">
+                                <img src="http://placehold.it/500x400" alt="Chicken steak">
+								<figcaption>Пилешка пържола филе</figcaption>
+                                <h2 class="white"><span class="weight">250гр.</span>6.<sup>40</sup> лв.</h2>
+                            </li>
+                            <li class="item bbq">
+                                <img src="http://placehold.it/500x400" alt="Chicken skewer">
+								<figcaption>Пилешко шишче</figcaption>
+                                <h2 class="white"><span class="weight">120гр.</span>2.<sup>85</sup> лв.</h2>
+                            </li>
+                            <li class="item bbq">
+                                <img src="http://placehold.it/500x400" alt="Chicken hearts skewer">
+								<figcaption>Пилешки сърца на шиш</figcaption>
+                                <h2 class="white"><span class="weight">200гр.</span>3.<sup>80</sup> лв.</h2>
+                            </li>
+                            <li class="item bbq">
+                                <img src="http://placehold.it/500x400" alt="Chicken stick">
+								<figcaption>Пилешки шашлик</figcaption>
+                                <h2 class="white"><span class="weight">450гр.</span>14.<sup>00</sup> лв.</h2>
+                            </li>
+                            <li class="item bbq">
+                                <img src="http://placehold.it/500x400" alt="Pork steak">
+								<figcaption>Свинска вратна пържола</figcaption>
+                                <h2 class="white"><span class="weight">250гр.</span>6.<sup>60</sup> лв.</h2>
+                            </li>
+                            <li class="item bbq">
+                                <img src="http://placehold.it/500x400" alt="Pork skewer">
+								<figcaption>Свинско шишче</figcaption>
+                                <h2 class="white"><span class="weight">120гр.</span>2.<sup>95</sup> лв.</h2>
+                            </li>
+                            <li class="item bbq">
+                                <img src="http://placehold.it/500x400" alt="Meat ball">
+								<figcaption>Кюфте</figcaption>
+                                <h2 class="white"><span class="weight">100гр.</span>1.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item bbq">
+                                <img src="http://placehold.it/500x400" alt="Kebap">
+								<figcaption>Кебапче</figcaption>
+                                <h2 class="white"><span class="weight">100гр.</span>1.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item bbq">
+                                <img src="http://placehold.it/500x400" alt="Pork spare ribs">
+								<figcaption>Свински ребра</figcaption>
+                                <h2 class="white"><span class="weight">450гр.</span>8.<sup>70</sup> лв.</h2>
+                            </li>
+                            <li class="item bbq">
+                                <img src="http://placehold.it/500x400" alt="BBQ sausage">
+								<figcaption>Наденица на скара</figcaption>
+                                <h2 class="white"><span class="weight">250гр.</span>5.<sup>00</sup> лв.</h2>
+                            </li>
+                            <li class="item bbq">
+                                <img src="http://placehold.it/500x400" alt="Karnache">
+								<figcaption>Кълцано кърначе</figcaption>
+                                <h2 class="white"><span class="weight">150гр.</span>3.<sup>30</sup> лв.</h2>
+                            </li>
+                            <li class="item bbq">
+                                <img src="http://placehold.it/500x400" alt="BBQ pork liver">
+								<figcaption>Свински дроб на скара</figcaption>
+                                <h2 class="white"><span class="weight">300гр.</span>5.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item bbq">
+                                <img src="http://placehold.it/500x400" alt="Pork stick">
+								<figcaption>Свински шашлик</figcaption>
+                                <h2 class="white"><span class="weight">450гр.</span>14.<sup>00</sup> лв.</h2>
+                            </li>
+                            <li class="item bbq">
+                                <img src="http://placehold.it/500x400" alt="Pork squares">
+								<figcaption>Свински карета</figcaption>
+                                <h2 class="white"><span class="weight">250гр.</span>8.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item bbq">
+                                <img src="http://placehold.it/500x400" alt="Meat ball">
+								<figcaption>Татарско кюфте</figcaption>
+                                <h2 class="white"><span class="weight">160гр.</span>2.<sup>70</sup> лв.</h2>
+                            </li>
+                            <li class="item bbq">
+                                <img src="http://placehold.it/500x400" alt="Mixed grill">
+								<figcaption>Мешана скара</figcaption>
+                                <h2 class="white"><span class="weight">530гр.</span>11.<sup>60</sup> лв.</h2>
+                            </li>
+                            <li class="item satches">
+                                <img src="images/Pricing/chickenSatch.jpg" alt="Chicken satch">
+								<figcaption>Пилешки сач</figcaption>
+                                <h2 class="white"><span class="weight">750гр.</span>16.<sup>90</sup> лв.</h2>
+                            </li>
+                            <li class="item satches">
+                                <img src="http://placehold.it/500x400" alt="Pork satch">
+								<figcaption>Свински сач</figcaption>
+                                <h2 class="white"><span class="weight">750гр.</span>16.<sup>90</sup> лв.</h2>
+                            </li>
+                            <li class="item satches">
+                                <img src="http://placehold.it/500x400" alt="Mixed satch">
+								<figcaption>Комбиниран сач</figcaption>
+                                <h2 class="white"><span class="weight">750гр.</span>18.<sup>90</sup> лв.</h2>
+                            </li>
+                            <li class="item satches">
+                                <img src="http://placehold.it/500x400" alt="Vegetarian satch">
+								<figcaption>Вегетариански сач</figcaption>
+                                <h2 class="white"><span class="weight">750гр.</span>12.<sup>90</sup> лв.</h2>
+                            </li>
+                            <li class="item bread">
+                                <img src="images/Pricing/pyrlenka.jpg" alt="bread">
+								<figcaption>Пърленка</figcaption>
+                                <h2 class="white"><span class="weight">120гр.</span>1.<sup>30</sup> лв.</h2>
+                            </li>
+                            <li class="item bread">
+                                <img src="http://placehold.it/500x400" alt="bread">
+								<figcaption>Пърленка със сирене</figcaption>
+                                <h2 class="white"><span class="weight">140гр.</span>1.<sup>60</sup> лв.</h2>
+                            </li>
+                            <li class="item bread">
+                                <img src="http://placehold.it/500x400" alt="bread">
+								<figcaption>Комбинирана пърленка</figcaption>
+                                <h2 class="white"><span class="weight">180гр.</span>2.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item bread">
+                                <img src="http://placehold.it/500x400" alt="bread">
+								<figcaption>Чеснова пърленка</figcaption>
+                                <h2 class="white"><span class="weight">120гр.</span>1.<sup>40</sup> лв.</h2>
+                            </li>
+                            <li class="item nuts">
+                                <img src="images/Pricing/cashew.jpg" alt="Cashew nuts">
+								<figcaption>Кашу</figcaption>
+                                <h2 class="white"><span class="weight">100гр.</span>5.<sup>90</sup> лв.</h2>
+                            </li>
+                            <li class="item nuts">
+                                <img src="images/Pricing/almonds.jpg" alt="Almonds nuts">
+								<figcaption>Бадеми</figcaption>
+                                <h2 class="white"><span class="weight">100гр.</span>5.<sup>90</sup> лв.</h2>
+                            </li>
+                            <li class="item dessert">
+                                <img src="http://placehold.it/500x400" alt="Pancake">
+								<figcaption>Палачинка</figcaption>
+                                <h2 class="white"><span class="weight">150гр.</span>2.<sup>70</sup> лв.</h2>
+                            </li>
+                            <li class="item dessert">
+                                <img src="http://placehold.it/500x400" alt="Strained yogurt">
+								<figcaption>Цедено мляко</figcaption>
+                                <h2 class="white"><span class="weight">150гр.</span>3.<sup>00</sup> лв.</h2>
+                            </li>
+                            <li class="item dessert">
+                                <img src="http://placehold.it/500x400" alt="Ice-cream">
+								<figcaption>Сладолед</figcaption>
+                                <h2 class="white"><span class="weight">50гр.</span>1.<sup>00</sup> лв.</h2>
+                            </li>
+                            <li class="item dessert">
+                                <img src="http://placehold.it/500x400" alt="Mixed ice-cream">
+								<figcaption>Мелба</figcaption>
+                                <h2 class="white"><span class="weight">200гр.</span>4.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item dessert">
+                                <img src="http://placehold.it/500x400" alt="Cake">
+								<figcaption>Торта</figcaption>
+                                <h2 class="white"><span class="weight">150гр.</span>4.<sup>50</sup> лв.</h2>
+                            </li>
+                            <li class="item dessert">
+                                <img src="http://placehold.it/500x400" alt="Fruit">
+								<figcaption>Плод</figcaption>
+                                <h2 class="white"><span class="weight">1бр.</span>1.<sup>50</sup> лв.</h2>
+                            </li>
+                        </ul><!-- @end #portfolio -->
+                    </div><!-- @end #w -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ Events  ============= -->
+    <section id="events" class="description_content">
+        <div class="events background_content">
+            <h1 id="SuperPlaceForFun">Страхотно <span>Място</span> за забавления</h1>
+        </div>
+        <div class="text-content container">
+            <div class="col-md-5">
+                <div class="img-section">
+                    <img src="images/Events/orkestar.jpg" width="100%">
+                </div>
+            </div>
+            <br>
+            <div class="col-md-6 col-md-offset-1">
+                <h1>Музика на Живо</h1>
+                <div class="fa fa-microphone fa-2x"></div>
+                <p class="desc-text">Забавлявайте се с нас. Ние ще се постараем да изпълним всички Ваши музикални желания и поздрави. Оркестърът на ресторант механа Нестинарка обещава да се погрижи за Вашето добро настроение независимо дали празнувате сватба, рожден ден или просто сте излезли с приятели...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ Lunch Menu  ============= -->
+    <section id="lunch" class="description_content">
+        <div class="lunch background_content">
+            <h1 id="ourLunchMenu">Нашето обедно <span>Меню</span></h1>
+        </div>
+        <div class="text-content container">
+            <div class="col-md-6">
+                <h1>Примерно обедно меню</h1>
+                <div class="icon-soup fa-2x"></div>
+                <p class="desc-text">Ресторант Нестинарка има удоволствието да Ви предложи ежедневно изготвено меню за обяд.
+ Менюто се предлага всеки ден от Понеделник до Петък в часовете между 12:00 и 15:00, а цената... тя е гарантирано ниска!<br/>Заповядайте в обедната си почивка за вкусен обяд...!</p>
+		<p class="desc-text">За повече информация тел.: <a href="tel:00359876464689" id="requestsTel">+359 (0) 876 46-46-89</a></p>
+            </div>
+            <div class="col-md-6">
+                <img class="lunch-menu-pic" src="http://placehold.it/260x368" width="260" alt="Lunch menu">
+                <img class="lunch-menu-pic" src="http://placehold.it/260x368" width="260" alt="Lunch menu">
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ Featured Dishes  ============= -->
+    <section id="featured" class="description_content">
+        <div class="featured background_content">
+            <h1>Меню <span>Специалитети</span></h1>
+        </div>
+        <div class="text-content container">
+            <div class="col-md-6">
+                <h1>Опитайте нашите специалитети!</h1>
+                <div class="icon-chef-hat fa-2x"></div>
+                <p class="desc-text">Цяло печено прасенце, пиле, агне или шаран... Няма проблем! Заявете при нас и ние с удоволствие ще го приготвим за Вас...!</p>
+				<p class="desc-text">За заявки тел.: <a href="tel:00359876464689" id="requestsTel">+359 (0) 876 46-46-89</a></p>
+            </div>
+            <div class="col-md-6">
+                <ul class="image_box_story2">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="images/FeaturedDishes/Carousel/pork.jpg" alt="whole pork">
+                                <div class="carousel-caption">
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/FeaturedDishes/Carousel/chicken.jpg" alt="whole chicken">
+                                <div class="carousel-caption">
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/FeaturedDishes/Carousel/lamb.jpg" alt="whole lamb">
+                                <div class="carousel-caption">
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/FeaturedDishes/Carousel/carp.jpg" alt="whole carp">
+                                <div class="carousel-caption">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+	<!-- ============ Reservation  ============= -->
+    <section class="description_content">
+        <div class="featured background_content">
+            <h1>Резервации</h1>
+        </div>
+		<div id="reservation"></div><!-- for better positioning when choosen from the navigation menu -->
+        <div class="text-content container">
+            <div class="inner contact">
+                <!-- Form Area -->
+                <div class="contact-form">
+                    <!-- Form -->
+                    <form method="post" action="php/reserve.php">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8 col-md-6 col-xs-12">
+                                    <div class="row">
+                                        <!-- First column of inputs -->
+                                        <div class="col-lg-6 col-md-6 col-xs-6">
+                                            <input type="text" name="first_name" id="first_name" required="required" pattern="[a-zA-Z а-яА-Я]+" title="Позволени знаци: малки и главни букви и интервали!" class="form" placeholder="Име*" />
+                                            <input type="text" name="last_name" id="last_name" required="required" pattern="[a-zA-Z а-яА-Я]+" title="Позволени знаци: малки и главни букви и интервали!" class="form" placeholder="Фамилия*" />
+                                            <input type="tel" name="phone" id="phone" required="required" pattern="0[89][789]\d{7}" title="Въведете моб.номер във формат 08хххххххх или 09хххххххх" class="form" placeholder="Мобилен номер* (формат 08******** или 09********)" />
+                                            <input type="datetime-local" name="datepicker" id="datepicker" required="required" title="Въведете дата и час или използвайте стрелките за навигация!" class="form" placeholder="Дата и час за резервацията*" />
+                                        </div>
+                                        <!-- Second column of inputs -->
+                                        <div class="col-lg-6 col-md-6 col-xs-6">
+                                            <input type="number" name="guest" id="guest" required="required" min="1" max="380" title="Моля използвайте стрелките за навигация!" class="form" placeholder="Брой гости*" />
+                                            <input type="text" name="state" id="state" pattern="[ 0-9\.a-zA-Zа-яА-Я]+" title="Позволени знаци: малки/главни букви, интервали, числа и точка!" class="form" placeholder="Адрес" />
+                                            <input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" title="Моля въведете валиден имейл адрес! " class="form" placeholder="Email" />
+                                            <input type="text" name="subject" id="subject" pattern="[ a-zA-Zа-яА-Я]+" title="Позволени знаци: малки и главни букви и интервали!" class="form" placeholder="Повод" />
+                                        </div>
+                                        <!-- Button column -->
+                                        <div class="col-xs-6 ">
+											<p class="mandatoryFieldsText">*задължителни полета</p>
+                                            <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn">Резервирай</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Working hours column -->
+                                <div class="col-lg-4 col-md-6 col-xs-12">
+                                    <div class="right-text">
+                                        <h2>Работно време</h2><hr>
+                                        <p>Понеделник до Петък:  9:00 - 00:00</p>
+                                        <p>Събота и Неделя:      9:00 - 00:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Clear -->
+                        <div class="clear"></div>
+                    </form>
+                </div><!-- End Contact Form Area -->
+            </div><!-- End Inner -->
+        </div>
+    </section>
+    
+	<!-- ============ Social  ============= -->
+    <section class="social_connect">
+        <div class="text-content container">
+            <div class="col-md-6">
+                <span class="social_heading">Следвайте ни</span>
+                <ul class="social_icons">
+                    <li><a class="fa fa-facebook color_animation" title="Facebook" href="https://www.facebook.com/NestinarkaPleven/" target="_blank"></a></li>
+                    <li><a class="icon-twitter color_animation" title="Twitter" href="#" target="_blank"></a></li>
+                    <li><a class="fa fa-instagram color_animation" title="Instagram" href="#" target="_blank"></a></li>
+                    <li><a class="icon-mail color_animation" title="Email" href="#contact-us"></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <span class="social_heading">или Позвънете</span>
+                <span class="social_info"><a class="color_animation" href="tel:00359876464689">+359 (0) 876 46-46-89</a></span>
+            </div>
+        </div>
+    </section>
+    
+	<!-- ============ Contact  ============= -->
+    <section id="contact">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2898.1086805907025!2d24.613536015104405!3d43.4165559791301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeea1c9394bdda39b!2z0JzQtdGF0LDQvdCwINCd0LXRgdGC0LjQvdCw0YDQutCw!5e0!3m2!1sbg!2sbg!4v1490453814231" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div id="contactContainer" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="inner contact">
+                        <!-- Form Area -->
+                        <div class="contact-form">
+                            <!-- Form -->
+                            <form id="contact-us" method="post" action="php/contact.php">
+                                <!-- Left Inputs -->
+                                <div class="col-md-6 ">
+                                    <!-- Name -->
+                                    <input type="text" name="name" id="name" required="required" pattern="[a-zA-Z а-яА-Я]+" title="Позволени знаци: малки и главни букви и интервали!" class="form" placeholder="Име*" />
+									<!-- Email -->
+                                    <input type="email" name="email" id="email" required="required" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" title="Моля въведете валиден имейл адрес!" class="form" placeholder="Email*" />
+									<!-- Subject -->
+                                    <input type="text" name="subject" id="subject" required="required" pattern="[a-zA-Z а-яА-Я]+" title="Позволени знаци: малки и главни букви и интервали!" class="form" placeholder="Тема*" />
+								</div><!-- End Left Inputs -->
+                                <!-- Right Inputs -->
+                                <div class="col-md-6">
+                                    <!-- Message -->
+                                    <textarea name="message" id="message" class="form textarea" placeholder="вашето съобщение тук..."></textarea>
+                                </div><!-- End Right Inputs -->
+                                <!-- Bottom Submit -->
+                                <div class="relative fullwidth col-xs-12">
+									<p class="mandatoryFieldsText">*задължителни полета</p>
+                                    <!-- Send Button -->
+                                    <button type="submit" id="submit" name="submit" class="form-btn">Изпрати съобщение</button>
+                                </div><!-- End Bottom Submit -->
+                                <!-- Clear -->
+                                <div class="clear"></div>
+                            </form>
+                        </div><!-- End Contact Form Area -->
+                    </div><!-- End Inner -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+	<!-- ============ Footer  ============= -->
+    <footer class="sub_footer">
+        <div class="container">
+            <div class="col-md-4">
+                <p class="sub-footer-text text-center">
+                    &copy; Ресторант-Механа НЕСТИНАРКА 2017 &trade;
+                </p>
+                <p class="sub-footer-text text-center">
+                    Темата е предоставена от <a class="credits" href="https://themewagon.com/">ThemeWagon</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="sub-footer-text text-center">Върни се <a href="#top">ГОРЕ</a></p>
+            </div>
+            <div class="col-md-4"><p class="sub-footer-text text-center credits">Built With Care By <a href="http://markovood.eu/" target="_blank">Г.М.</a></p></div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"> </script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    <script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>

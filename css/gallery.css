@@ -1,0 +1,58 @@
+﻿@font-face {
+    font-family: 'ancientBulgarian';
+    src: url('../fonts/MIROSLN.ttf');
+    src: url('../fonts/MIROSLN.ttf') format('truetype');
+}
+
+html {
+	/*background-color: #000;*/
+}
+
+body {
+	font-family: ancientBulgarian, "museo-sans", helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0;
+}
+
+header {
+	background-color: #000;
+}
+
+h1 {
+	color: #fff;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 15px;
+}
+
+h4 {
+	color: #fff;
+	margin-top: 0;
+	padding-bottom: 15px;
+}
+
+ul#gallery {         
+          padding:0 0 0 0;
+          margin:0 0 0 0;
+      }
+      ul#gallery li {     
+          list-style:none;
+          margin-bottom:25px;           
+      }
+      ul#gallery li img {
+          cursor: pointer;
+          width: 100%; /*160px*/
+		  height: 106.66px;
+      }
+	  
+a {
+	text-decoration: none;
+}
+
+footer {
+	margin-bottom: 40px;
+}
+
+footer p:first-child {
+	margin-top: 0;
+}

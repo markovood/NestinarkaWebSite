@@ -1,0 +1,24 @@
+#requestsTel {
+	text-decoration: none;
+	color: #b8860b;
+	margin-left: 5%;
+}
+
+#requestsTel:hover {
+	color: #739024;
+}
+
+.navbar-brand span {
+	color: #ed143d;
+}
+
+#galleryLink {
+	color: #b8860b;
+}
+
+.mandatoryFieldsText{
+	font-family: serif;
+    font-size: small;
+    margin-bottom: 2%;
+	text-align: left;
+}
